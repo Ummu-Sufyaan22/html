@@ -60,21 +60,21 @@ nav a:hover {
 
 nav a {
     text-decoration: none;
-    color: blue;
+    color: rgb(165, 154, 149);/* White text color */
 }
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #1b7c44;/* Green background */
+    color: white;/* White text color */
     padding: 1rem;
     text-align: center;
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #0c9148;/* Green background */
+    color: white;/* White text color */
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
