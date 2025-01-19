@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: blue;
+}/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Section styles */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;#about {
+        padding: 2rem;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        margin-bottom: 2rem;
+    }
+    
+    #about h2 {
+        color: #333;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    #about p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        color: #555;
+    }
+    
+    #about ul {
+        list-style-type: disc;
+        margin-left: 2rem;
+    }
+    
+    #about img {
+        display: block;
+        margin: 1rem auto;
+        border-radius: 50%;
+        border: 2px solid #333;
+    }
+
+}
