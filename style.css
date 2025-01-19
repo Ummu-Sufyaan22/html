@@ -22,12 +22,41 @@ body {
 /* Navigation bar styles */
 nav ul {
     list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
-    background-color: #f4f4f4;
-    padding: 1rem;
+    padding: 1rem;              /* Adds padding around the entire nav bar */
+    display: flex;              /* Display nav items in a row */
+    gap: 2rem;                  /* Increase space between items */
+    background-color: #4CAF50;  /* Green background */
 }
+
+/* Navigation link styles */
+nav a {
+    text-decoration: none;      /* No underline */
+    color: white;               /* White text color */
+    padding: 0.5rem 1rem;       /* Padding inside the links */
+    display: block;             /* Makes the link block-level */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for nav links */
+nav a:hover {
+    background-color: #333;     /* Dark background on hover */
+    color: #fff;                /* White text on hover */
+}
+
+/* Mobile responsive navigation */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;  /* Stacks items vertically on mobile */
+        gap: 0.5rem;             /* Reduce space between items */
+    }
+    
+    nav a {
+        padding: 1rem;           /* Increased padding on small screens */
+        text-align: center;      /* Center text on mobile */
+    }
+}
+
+
 
 nav a {
     text-decoration: none;
