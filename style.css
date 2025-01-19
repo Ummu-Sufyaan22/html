@@ -24,7 +24,7 @@ nav ul {
     list-style-type: none;
     padding: 1rem;              /* Adds padding around the entire nav bar */
     display: flex;              /* Display nav items in a row */
-    gap: 2rem;                  /* Increase space between items */
+    gap: 3rem;                  /* Increase space between items */
     background-color: #4CAF50;  /* Green background */
 }
 
@@ -47,12 +47,12 @@ nav a:hover {
 @media screen and (max-width: 600px) {
     nav ul {
         flex-direction: column;  /* Stacks items vertically on mobile */
-        gap: 0.5rem;             /* Reduce space between items */
+        gap: 0.5rem;             /* increase space between items */
     }
     
     nav a {
         padding: 1rem;           /* Increased padding on small screens */
-        text-align: center;      /* Center text on mobile */
+        text-align: justify;      /* Center text on mobile */
     }
 }
 
@@ -60,7 +60,7 @@ nav a:hover {
 
 nav a {
     text-decoration: none;
-    color: rgb(165, 154, 149);/* White text color */
+    color: white;/* White text color */
 }
 
 /* Header styles */
